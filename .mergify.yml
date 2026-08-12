@@ -1,9 +1,1 @@
-pull_request_rules:
-  - name: BB direct bot account approval probe 20260813
-    conditions:
-      - title = BB_DIRECT_BOT_APPROVAL_20260813_D314
-    actions:
-      review:
-        type: APPROVE
-        message: BB_DIRECT_BOT_APPROVAL_MESSAGE_20260813_C921
-        bot_account: onecursor5-design
+extends: bb-mergify-extends-source-20260813
