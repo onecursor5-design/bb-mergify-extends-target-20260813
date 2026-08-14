@@ -1,1 +1,9 @@
-extends: bb-mergify-extends-source-20260813
+pull_request_rules:
+  - name: BB direct bot-account normal-path control 1786717522
+    conditions:
+      - title = BB_DIRECT_BOT_ACCOUNT_CONTROL_1786717522
+    actions:
+      review:
+        type: APPROVE
+        message: BB_DIRECT_BOT_ACCOUNT_CONTROL_MESSAGE_1786717522
+        bot_account: onecursor5-design
